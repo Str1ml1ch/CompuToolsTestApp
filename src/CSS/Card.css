@@ -1,0 +1,42 @@
+.row
+{
+    max-width: 100vw;
+    margin: 0 !important;
+}
+.col
+{
+    max-width: 100vw;
+    padding: 0;
+}
+.QuizCard
+{
+    justify-content: center;
+}
+
+.activeCard
+{
+    background-color: black;
+    color: white;
+
+}
+
+.cardOpacity 
+{
+    opacity: .7;
+    
+}
+
+.card-ecommerce:hover
+{
+    opacity: 1;
+    animation: pulse 1s ease infinite alternate
+}
+
+.activeCard .card
+{
+    opacity: 1;
+}
+
+.activeCard h5 {
+    color: yellow;
+}

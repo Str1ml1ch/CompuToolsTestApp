@@ -1,0 +1,14 @@
+.error
+{
+    display: block;
+    width: 100vw;
+    height: calc(100vh - 3.5rem);
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background: url("https://i.pinimg.com/originals/bc/c0/86/bcc0860537b4030e6e62fa0a38ef907b.jpg");
+    background-position: center;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    color:white;
+}

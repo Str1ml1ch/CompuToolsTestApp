@@ -1,0 +1,32 @@
+[
+    {
+        "questionId": 1,
+        "questionResults": 
+        [
+            {
+                "result": "Stern",
+                "description": "You are a very serious person!",
+                "minPoints": 50,
+                "maxPoints": 100 
+            },
+            {
+                "result": "Funny",
+                "description": "You have a wicked sense of humour!",
+                "minPoints": 100,
+                "maxPoints": 150 
+            },
+            {
+                "result": "Outgoing",
+                "description": "You’re a perfect mix of funny, chill, and intelligence!",
+                "minPoints": 150,
+                "maxPoints": 200 
+            },
+            {
+                "result": "Shy",
+                "description": "You’re shy and reserved!",
+                "minPoints": 200,
+                "maxPoints": 250 
+            }
+        ]
+    }
+]

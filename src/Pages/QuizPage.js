@@ -112,6 +112,7 @@ export default class QuizPage extends Component
                         {
                             ResultObject.result = resultAnswer.result // our result
                             ResultObject.description = resultAnswer.description// result describe
+                            ResultObject.image = resultAnswer.image// out result image
                         }
                     })
                 }
@@ -131,7 +132,7 @@ export default class QuizPage extends Component
     {       
         return(
             <>
-            <h3 className='h4-responsive font-weight-bold text-center my-5'>{this.state.question.title }</h3>
+            <h3 className='h4-responsive font-weight-bold text-center my-5'>{this.state.question.title}</h3>
             {this.state.dataPointsObject &&
                  <ResultCard 
                  data={this.state.dataPointsObject} 

@@ -22,7 +22,7 @@ export default class ResultCard extends Component
         <MDBCard>
             <MDBCardImage
               className='img-fluid'
-              src= "https://www.mckinsey.com/~/media/McKinsey/Our%20People/Sebastian%20Stern/Sebastian_Stern_profile_1536x1152.jpg"
+              src= {this.props.data.image || "https://www.mckinsey.com/~/media/McKinsey/Our%20People/Sebastian%20Stern/Sebastian_Stern_profile_1536x1152.jpg"}
             />
 
           <MDBCardBody>

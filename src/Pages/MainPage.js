@@ -16,7 +16,17 @@ export default class MainPage extends Component
 
     componentWillMount()
     {
-            this.setState({datas: data})
+       const sortData = data.sort(function(a,b) // sort data by date
+                {
+                    if (Date.parse(a.date) > Date.parse(b.date)) {
+                        return -1;
+                      }
+                      if (Date.parse(a.date) < Date.parse(b.date)) {
+                        return 1;
+                      }
+                      return 0;
+                })
+            this.setState({datas: sortData})
             this.setState({ready: true})
     }
     

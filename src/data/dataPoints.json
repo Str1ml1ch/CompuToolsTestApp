@@ -28,5 +28,37 @@
                 "maxPoints": 250 
             }
         ]
+    },
+    {
+        "questionId": 2,
+        "questionResults": 
+        [
+            {
+                "result": "10-20",
+                "description": "You are so yang!",
+                "minPoints": 50,
+                "maxPoints": 100,
+                "image": "https://cdn.thecollegeinvestor.com/wp-content/uploads/2017/11/WP_NET.jpg"
+            },
+            {
+                "result": "20-30",
+                "description": "you still have a full life ahead of you!",
+                "minPoints": 100,
+                "maxPoints": 150,
+                "image": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/12/Girl-juggling-electronics-1024x1024.jpg?auto=format&q=60&fit=max&w=930" 
+            },
+            {
+                "result": "30-45",
+                "description": "Have you got a children?",
+                "minPoints": 150,
+                "maxPoints": 200 
+            },
+            {
+                "result": "45-70",
+                "description": "Why are you here?",
+                "minPoints": 200,
+                "maxPoints": 250 
+            }
+        ]
     }
 ]
